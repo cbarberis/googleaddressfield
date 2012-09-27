@@ -29,7 +29,7 @@
 	$('#suggestionsAddress ul li a').entwine({
 		onclick: function() {
 
-			$('#Address').find('input[name=Address]').val(this.text());
+			$('input[name=Address]').val(this.text());
 			var self = this;
 			$.ajax({
 				url: 'googleapi/getCoordinates',
