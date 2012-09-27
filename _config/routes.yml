@@ -1,0 +1,6 @@
+---
+Name: googleaddressfieldcontroller
+---
+Director:
+  rules:
+    'googleapi/$Action/$ID/$OtherID/$ExtraID': 'GoogleAPI_Controller'

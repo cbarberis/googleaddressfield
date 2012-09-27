@@ -1,0 +1,4 @@
+<?php
+
+define('GOOGLEADDRESSFIELD_DIR', 'googleaddressfield');
+define('GOOGLEADDRESSFIELD_PATH', BASE_PATH . '/' . GOOGLEADDRESSFIELD_DIR);
