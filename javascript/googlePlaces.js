@@ -2,7 +2,7 @@
 
 	$('input.googleaddresssuggestion').entwine({
 		onkeyup: function() {
-			if(this.val().length > 3) $('#suggestionsAddress').loadSuggestions(this);
+			if(this.val().length > 3 && (this.val().length % 2 == 0)) $('#suggestionsAddress').loadSuggestions(this);
 		}
 	});
 
